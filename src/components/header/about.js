@@ -1,15 +1,13 @@
-// src/components/AboutSection.js
-
 import React from "react";
 import Team_discuss from '../assets/Team_discus.jpg';
 
 const AboutSection = () => {
   return (
-    <div className="bg-white min-h-screen flex items-center justify-center p-8">
-      <div className="max-w-5xl flex flex-col md:flex-row items-center">
+    <div className="bg-white min-h-[600px] flex items-center justify-center p-">
+      <div className="max-w-7xl flex flex-col md:flex-row items-center">
         {/* Text Section */}
         <div className="md:w-1/2 md:pr-8">
-          <h2 className="text-4xl font-bold text-orange-500 mb-4">
+          <h2 className="text-5xl font-bold text-orange-500 mb-4">
             About CogniGenNxt Agency And Its Innovative IT Solutions
           </h2>
           <p className="text-gray-600 mb-4">
@@ -30,11 +28,8 @@ const AboutSection = () => {
         </div>
         
         {/* Image Section */}
-        <div className="md:w-1/2 mt-8 md:mt-0 h-[400px] w-[600px]" 
-
-        style={{ backgroundImage: `url(${Team_discuss})`}}
-        
-        >
+        <div className="md:w-1/2 mt-8 md:mt-0 h-[400px] w-[600px]" >
+          <img src={Team_discuss}/>
       
         </div>
       </div>

@@ -29,7 +29,7 @@ const Projects = () => {
 
           <div className="relative overflow-hidden rounded-lg shadow-lg">
             <img
-              src={Cybersecurity} // Replace with your image URL
+              src={Cybersecurity} 
               alt="cybersecurity"
               className="w-full h-auto"
             />
@@ -43,7 +43,7 @@ const Projects = () => {
 
           <div className="relative overflow-hidden rounded-lg shadow-lg">
             <img
-              src={Mobileinfo} // Replace with your image URL
+              src={Mobileinfo} 
               alt="mobileinfo"
               className="w-full h-auto"
             />

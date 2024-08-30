@@ -23,7 +23,7 @@ const Project1 = () => {
 
           <div className="relative overflow-hidden rounded-lg shadow-lg">
             <img
-              src={Digitalmarketing} // Replace with your image URL
+              src={Digitalmarketing}
               alt="digitalmarketing"
               className="w-full h-auto"
             />
@@ -37,7 +37,7 @@ const Project1 = () => {
 
           <div className="relative overflow-hidden rounded-lg shadow-lg">
             <img
-              src={Keywordresearch} // Replace with your image URL
+              src={Keywordresearch} 
               alt="keywordresearch"
               className="w-full h-auto"
             />

@@ -23,7 +23,7 @@ const Services = () => {
               Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut
               interdum. Aliquam dolor eget urna ultricies tincidunt.
             </p>
-            <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">
+            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-gray-400">
               Read More
             </button>
           </div>
@@ -42,7 +42,7 @@ const Services = () => {
               Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut
               interdum. Aliquam dolor eget urna ultricies tincidunt.
             </p>
-            <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">
+            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-gray-400">
               Read More
             </button>
           </div>
@@ -61,7 +61,7 @@ const Services = () => {
               Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut
               interdum. Aliquam dolor eget urna ultricies tincidunt.
             </p>
-            <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">
+            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-gray-400">
               Read More
             </button>
           </div>
