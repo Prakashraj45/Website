@@ -1,9 +1,7 @@
 import React from "react";
-import Webdesign from '../assets/webpage.jpg'
-import Cybersecurity  from '../assets/cybersecurity.jpg'
-import Mobileinfo  from '../assets/Mobileinfo.jpg'
-
-
+import Webdesign from '../assets/webpage.jpg';
+import Cybersecurity from '../assets/cybersecurity.jpg';
+import Mobileinfo from '../assets/Mobileinfo.jpg';
 
 const Projects = () => {
   return (
@@ -16,41 +14,47 @@ const Projects = () => {
           </h1>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="relative overflow-hidden rounded-lg shadow-lg h-45">
-          <img src={Webdesign} alt='Web design'/>
-        
-            <div className="absolute inset-0 bg-opacity-100 flex items-center justify-center">
+          {/* Project 1 */}
+          <div className="relative overflow-hidden rounded-lg shadow-lg group">
+            <img
+              src={Webdesign}
+              alt="Web design"
+              className="w-full h-auto transform transition-transform duration-500 group-hover:rotate-6"
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">
               <div className="text-center text-white">
-                <h3 className="text-xl font-bold">Web design</h3>
-                <p className="mt-2">Web Analysis</p>
+                <h3 className="text-3xl font-bold">Web Design</h3>
+                <p className="mt-3">Web Analysis</p>
               </div>
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg shadow-lg">
+          {/* Project 2 */}
+          <div className="relative overflow-hidden rounded-lg shadow-lg group">
             <img
-              src={Cybersecurity} 
-              alt="cybersecurity"
-              className="w-full h-auto"
+              src={Cybersecurity}
+              alt="Cybersecurity"
+              className="w-full h-auto transform transition-transform duration-500 group-hover:rotate-6"
             />
-            <div className="absolute inset-0  bg-opacity-100 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">
               <div className="text-center text-white">
-                <h3 className="text-xl font-bold">Cyber security</h3>
-                <p className="mt-2">Cyber security core</p>
+                <h3 className="text-3xl font-bold">Cyber Security</h3>
+                <p className="mt-3">Cyber Security Core</p>
               </div>
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg shadow-lg">
+          {/* Project 3 */}
+          <div className="relative overflow-hidden rounded-lg shadow-lg group">
             <img
-              src={Mobileinfo} 
-              alt="mobileinfo"
-              className="w-full h-auto"
+              src={Mobileinfo}
+              alt="Mobile Info"
+              className="w-full h-auto transform transition-transform duration-500 group-hover:rotate-6"
             />
-            <div className="absolute inset-0  bg-opacity-100 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">
               <div className="text-center text-white">
-                <h3 className="text-xl font-bold">Web Development</h3>
-                <p className="mt-2">Keyword Analysis</p>
+                <h3 className="text-3xl font-bold">Web Development</h3>
+                <p className="mt-3">Keyword Analysis</p>
               </div>
             </div>
           </div>

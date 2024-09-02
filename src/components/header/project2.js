@@ -1,50 +1,57 @@
 import React from "react";
-import Webdevelopment from '../assets/webdevelopment.jpg'
-import Digitalmarketing  from '../assets/digitalmarketing.jpg'
-import Keywordresearch from '../assets/keywordresearch.jpg'
+import Webdevelopment from '../assets/webdevelopment.jpg';
+import Digitalmarketing from '../assets/digitalmarketing.jpg';
+import Keywordresearch from '../assets/keywordresearch.jpg';
 
-
-
-const Project1 = () => {
+const Project2 = () => {
   return (
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="relative overflow-hidden rounded-lg shadow-lg h-45">
-          <img src={Webdevelopment} alt='Webdevelopment'/>
-        
-            <div className="absolute inset-0 bg-opacity-100 flex items-center justify-center">
+          {/* Project 1 */}
+          <div className="relative overflow-hidden rounded-lg shadow-lg group">
+            <img
+              src={Webdevelopment}
+              alt="Web Development"
+              className="w-full h-auto transform transition-transform duration-500 group-hover:rotate-6"
+              style={{ transformOrigin: 'center center', transition: 'transform 1s' }}
+            />
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">
               <div className="text-center text-white">
-                <h3 className="text-xl font-bold">Web Development</h3>
-                <p className="mt-2">Web Analysis</p>
+                <h3 className="text-3xl font-bold">Web Development</h3>
+                <p className="mt-3">Web Analysis</p>
               </div>
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg shadow-lg">
+          {/* Project 2 */}
+          <div className="relative overflow-hidden rounded-lg shadow-lg group">
             <img
               src={Digitalmarketing}
-              alt="digitalmarketing"
-              className="w-full h-auto"
+              alt="Digital Marketing"
+              className="w-full h-auto transform transition-transform duration-500 group-hover:rotate-6"
+              style={{ transformOrigin: 'center center', transition: 'transform 1s' }}
             />
-            <div className="absolute inset-0  bg-opacity-100 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">
               <div className="text-center text-white">
-                <h3 className="text-xl font-bold">Digital Marketing</h3>
-                <p className="mt-2">Marketing Analysis</p>
+                <h3 className="text-3xl font-bold">Digital Marketing</h3>
+                <p className="mt-3">Marketing Analysis</p>
               </div>
             </div>
           </div>
 
-          <div className="relative overflow-hidden rounded-lg shadow-lg">
+          {/* Project 3 */}
+          <div className="relative overflow-hidden rounded-lg shadow-lg group">
             <img
-              src={Keywordresearch} 
-              alt="keywordresearch"
-              className="w-full h-auto"
+              src={Keywordresearch}
+              alt="Keyword Research"
+              className="w-full h-auto transform transition-transform duration-500 group-hover:rotate-6"
+              style={{ transformOrigin: 'center center', transition: 'transform 1s' }}
             />
-            <div className="absolute inset-0  bg-opacity-100 flex items-center justify-center">
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">
               <div className="text-center text-white">
-                <h3 className="text-xl font-bold">Keyword Research</h3>
-                <p className="mt-2">Keyword analysis</p>
+                <h3 className="text-3xl font-bold">Keyword Research</h3>
+                <p className="mt-3">Keyword Analysis</p>
               </div>
             </div>
           </div>
@@ -54,4 +61,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Project2;
